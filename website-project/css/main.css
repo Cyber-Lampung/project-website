@@ -1,0 +1,627 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 2%;
+    align-items: center;
+    background-color: rgb(0, 163, 0);
+    margin: auto;
+    margin-top: 20px;
+    width: 90%;
+    border-radius: 30px;
+}
+
+.header-judul{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li{
+    padding: 1rem;
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: 600;
+    border-bottom: solid 2px transparent;
+    border-radius: 2px;
+    transition: all 2s ease;
+}
+
+nav ul li a:hover{
+    border-bottom: solid 2px;
+    transition: all 2s ease;
+}
+
+.form{
+    display: flex;
+    gap: 2rem;
+}
+
+.sign-page{
+    border: solid 2px rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.sign-a{
+    font-family: sans-serif;
+    font-size: 15px;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.login-page{
+    border: solid 2px white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.login-a{
+    font-family: sans-serif;
+    font-size: 15px;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.container-image{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px;
+    gap: 2rem;
+    align-items: center;
+    padding-top: 70px;
+}
+
+.text-container{
+    padding: 100px;
+}
+
+.text{
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+.text-sub{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.sub-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: rgb(98, 96, 96);
+}
+
+.image-gojek{
+    width: 500px;
+}
+
+.button-main{
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 60px;
+}
+
+.btn-1{
+    padding: 15px;
+    background-color: transparent;
+    border: solid 2px ;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn-2{
+    padding: 15px;
+    background-color: transparent;
+    border-radius: 10px;
+    border: solid 2px;
+    cursor: pointer;
+}
+
+.a-btn{
+    color: black;
+    font-family: sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+main{
+    padding-bottom: 150px;
+}
+
+/* article{
+    padding-top: 100px;
+    background-color: whitesmoke;
+} */
+
+.section-article{
+    padding-top: 100px;
+    background-color: whitesmoke;
+}
+
+article h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+.border-menu{
+    padding: 10px;
+    padding-top: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 150px;
+}
+
+.aplikasi{
+    padding: 50px;
+    padding-bottom: 50px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px 6px rgb(131, 131, 131);
+    background-color: white;
+}
+
+.aplikasi-article-judul{
+    text-align: start;
+    display: flex;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.article-aplikasi{
+    padding-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.sub-article{
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+.link-aplikasi{
+    padding-top: 80px;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.btn-aplikasi{
+    padding: 15px;
+    gap: 2rem;
+}
+
+.a-btn-aplikasi{
+    padding: 10px 30px 10px 30px;
+    border: solid 2px black;
+    border-radius: 10px;
+    color: black;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.a-btn-aplikasi-ios{
+    padding: 10px 30px 10px 30px;
+    border: solid 2px black;
+    border-radius: 10px;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+}
+
+.website{
+    padding: 50px;
+    padding-bottom: 50px;
+    border-radius: 20px;
+    background-color: white;
+    /* padding-left: 160px;
+    padding-right: 160px; */
+    box-shadow: 10px 10px 16px 6px rgb(159, 157, 157);
+}
+
+.website-article-judul{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    text-align: start;
+    font-weight: 600;
+}
+
+.article-website{
+    padding-top: 50px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-size: 14px;
+}
+
+.link-website{
+    padding-top: 80px;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.btn-website{
+    padding: 20px;
+}
+
+.a-btn-website{
+    padding: 10px 30px 10px 30px;
+    border-radius: 10px;
+    border: solid 2px black;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+footer{
+    background-color: rgb(25, 32, 60);
+}
+
+.footer-div{
+    padding: 100px;
+    padding-left: 200px;
+}
+
+.header-footer-list{
+    padding-top: 90px;
+    display: flex;
+    gap: 10rem;
+}
+
+.header-icon-footer{
+    align-items: center;
+    gap: 1rem;
+    display: flex;
+    padding-top: 10px;
+    width: 100%;
+    margin: auto;
+}
+
+.icon-gojek{
+    width: 50px;
+    border-radius: 300px;
+}
+
+.header-icon-footer h3{
+    color: white;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.judul-1{
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.list-1 ul{
+    padding-top: 20px;
+}
+
+.list-1 ul li {
+    list-style: none;
+    padding: 10px;
+}
+
+.list-1 ul a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.judul-2{
+    font-size: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.list-2 ul{
+    padding-top: 20px;
+}
+
+.list-2 ul li{
+    list-style: none;
+    padding: 10px;
+}
+
+.list-2 ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.judul-3{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.list-3 ul {
+    padding-top: 20px;
+}
+
+.list-3 ul li{
+    list-style: none;
+    padding: 10px;
+}
+
+.list-3 ul li a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+.judul-4{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: 600;
+}
+
+.list-4 ul{
+    padding-top: 20px;
+}
+
+.list-4 ul li{
+    padding: 10px;
+    list-style: none;
+}
+
+.list-4 ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.judul-media{
+    font-family: sans-serif;
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+}
+
+.icon{
+    padding-top: 20%;
+    gap: 10rem;
+}
+
+.bi{
+    font-size: 20px;
+    color: white;
+    padding-inline-start: 10px;
+}
+
+.unduh-app{
+    padding-top: 30px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: white;
+}
+
+.icon-unduh{
+    padding-top: 20px;
+}
+
+.visi-misi{
+    padding-top: 200px;
+}
+
+.isi{
+    padding-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
+    gap: 10rem;
+}
+
+.visi{
+    border: solid 2px black;
+    padding: 60px;
+    border-radius: 30px;
+}
+
+.visi-isi{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.isi-visi{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+
+
+.misi{
+    border: solid 2px black;
+    padding: 60px;
+    border-radius: 30px;
+}
+
+.misi-isi{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.isi-misi{
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.testimony{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.header-testimony{
+    padding-top: 100px;
+}
+
+.testimony-grid{
+    padding-top: 200px;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    padding: 5%;
+}
+
+.person{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+#person{
+    color: black;
+    font-size: 25px;
+}
+
+.riview-1{
+    padding-top: 20px;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.test-1{
+    border: solid 2px black;
+    margin: 90px;
+    padding:20px ;
+    border-radius: 30px;
+    padding-right: 50px;
+}
+
+.judul-1-test{
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    display: flex;
+}
+
+.star{
+    display: flex;
+    padding-top: 50px;
+}
+
+#star1{
+    color: yellow;
+    font-weight: 600;
+}
+
+
+.test-2{
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: solid 2px black;
+    margin: 90px;
+    border-radius: 30px;
+    padding-right: 50px;
+}
+
+.judul-2-test{
+    font-family: sans-serif;
+    font-weight: 600;
+    display: flex;
+}
+
+.test-text-2{
+    padding-top: 20px;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+#star-2{
+    color: yellow;
+}
+
+.test-3{
+    padding: 10px;
+    padding-top: 20px;
+    border: solid 2px black;
+    margin: 90px;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.judul-test-3{
+    font-family: sans-serif;
+    font-weight: 600;
+    display: flex;
+}
+
+#star-3{
+    color: yellow;
+}
+
+@media screen and (max-width: 1530px) and (min-width: 768px){
+    .text{
+        font-size: 27px;
+    }
+
+    .text-sub{
+        font-size: 17px;
+    }
+
+    .sub-text{
+        font-size: 18px;
+    }
+
+    .footer-div{
+        width: auto;
+        padding: 50px;
+        padding-left: 50px;
+    }
+
+    .testimony{
+        width: 100%;
+        margin: auto;
+    }
+
+    .header-footer-list{
+        gap: 9rem;
+    }
+
+    .testimony-grid{
+        padding: 0;
+        gap: 0.5rem;
+        width: 100%;
+        margin: auto;
+    }
+
+}
