@@ -1,6 +1,0 @@
-function Getdata(){
-    // method get
-
-    
-    
-}
