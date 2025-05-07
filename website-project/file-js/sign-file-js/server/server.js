@@ -1,0 +1,6 @@
+function Getdata(){
+    // method get
+
+    
+    
+}
